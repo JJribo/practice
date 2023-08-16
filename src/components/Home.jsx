@@ -3,8 +3,10 @@ import React from "react";
 export default function Home() {
     const fullname = "RIBO, JOPHER JOE SIMON";
     const role = "WEB DEVELOPER";
-    const github = "Github Account";
-    const githubusername = "";
+    const github = "Github Account: ";
+    const githubusername = "JJribo";
+    const socialmedia = "Social Media Accounts: "
+    const facebookusername = "Jopher Joe"
 
     return (
         
@@ -20,6 +22,20 @@ export default function Home() {
                         >
                             <img className=" h-16 transition-transform transform hover:scale-125 delay-200 h-16" src="github-icon.png" alt="GitHub Icon" />
                         </a>
+                    </div>
+                    <div className="pt-4 ml-20 max-w-fit flex items-center">
+                        <h1 className="text-yellow-50">{socialmedia}</h1>
+                        <a
+                            href={`https://www.facebook.com//${facebookusername}`}
+                        >
+                            <img className=" h-16 transition-transform transform hover:scale-125 delay-200 h-16 bg-slate-900 ml-8" src="facebooks-logo.png" alt="Facebook Logo" />
+                        </a>
+                        <a
+                            href={`https://www.facebook.com//${facebookusername}`}
+                        >
+                            <img className=" h-16 transition-transform transform hover:scale-125 delay-200 h-16 bg-slate-900 ml-8" src="instagram-logo.png" alt="Facebook Logo" />
+                        </a>
+                        
                     </div>
                 </div>
                 </main>

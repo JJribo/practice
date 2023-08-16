@@ -36,9 +36,9 @@ function Header() {
         </Link>
         <Link
           className="mx-4 transition-colors hover:text-stone-600 transition transform hover:-translate-y-1 delay-200"
-          to="/Work"
+          to="/Portfolio"
         >
-          Work
+          Portfolio
         </Link>
         <Link
           className="mx-4 transition-colors hover:text-stone-600 transition transform hover:-translate-y-1 delay-200"

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./index.css";
 import Home from "./components/Home"
-import Work from "./components/Work"
+import Portfolio from "./components/Portfolio"
 import Education from "./components/Education"
 import Format from "./common/Format"
 import About from "./components/About"
@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route element = {<Format/>}>
           <Route path = "/" element = {<Home/>}/>
-          <Route path = "/Work" element = {<Work/>}/>
+          <Route path = "/Portfolio" element = {<Portfolio/>}/>
           <Route path = "Education" element = {<Education/>}/>
           <Route path="About" element = {<About/>}/>
         </Route>

@@ -2,10 +2,10 @@ import { useState } from "react";
 import "./index.css";
 import Home from "./components/Home"
 import Portfolio from "./components/Portfolio"
-import Education from "./components/Education"
 import Format from "./common/Format"
 import About from "./components/About"
 import {BrowserRouter , Routes, Route} from "react-router-dom"
+import Contact from "./components/Contact"
 
 
 
@@ -18,7 +18,7 @@ function App() {
         <Route element = {<Format/>}>
           <Route path = "/" element = {<Home/>}/>
           <Route path = "/Portfolio" element = {<Portfolio/>}/>
-          <Route path = "Education" element = {<Education/>}/>
+          <Route path = "Contact" element = {<Contact/>}/>
           <Route path="About" element = {<About/>}/>
         </Route>
       </Routes>

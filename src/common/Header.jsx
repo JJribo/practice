@@ -48,9 +48,9 @@ function Header() {
         </Link>
         <Link
           className="mx-4 mr-28 transition-colors hover:text-stone-600 transition transform hover:-translate-y-1 delay-200"
-          to="/Education"
+          to="/Contact"
         >
-          Education
+          Contact
         </Link>
       </nav>
     </main>

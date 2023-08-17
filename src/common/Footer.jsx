@@ -23,7 +23,7 @@ function Footer() {
                 </div>
                 <div className="flex items-center ml-4">
                     <img className="h-16" src="email-logo.png" alt="Email Logo" />
-                    <p>{email}</p>
+                    <p className="ml-4">{email}</p>
                 </div>
             </div>
         </footer>
